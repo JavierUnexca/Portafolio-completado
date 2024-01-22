@@ -1,0 +1,17 @@
+:root{
+	--background-color: #1d1d1d;
+}
+
+nav{
+	background-color:  #1d1d1d;
+	border-bottom: 1px solid whitesmoke;
+}
+.flex-dl{
+	color:white;
+}
+.fondo-pattern-1{
+	border-bottom: 3px dashed white;
+}	
+.text-dark-mode{
+	color: white;
+}
