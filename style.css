@@ -68,7 +68,7 @@
 	align-items: center;
 }
 nav{
-	padding: 10px 20px;
+	padding: 15px 20px;
 	width: 100%;
 	background-color: white;
 }
@@ -109,6 +109,16 @@ nav{
 		display: flex;
 		justify-content: center;
 	}
+.flex-1{
+	display: flex;
+	justify-content: center;
+}	
+.margin-a{
+	margin: 50px 20px
+}	
+.margin-b{
+	margin: 150px 20px
+}	
 .flex-dl{
 	display: flex;
 	flex-direction: column;
@@ -117,7 +127,7 @@ nav{
 }
 
 .sobre-mi{
-	background-color: coral;
+	background-color: #F95;
 }
 .container h1{
 	font-weight: 600;
@@ -127,9 +137,9 @@ nav{
 	cursor: default;
 }
 .card:hover{
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-	color: #fff;
-	transition:background-image 0.2s, color 0.6s;
+	background-color: #FBAB7E;
+	background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	transition:background-color 1.4s, background-image 1.6s;
 }
 .caja{
 	display: flex;
@@ -185,15 +195,17 @@ nav{
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
-
 }
 .otros-proyectos{
+	width: 400px;
+	height: 50px;
+	padding: 10px;
 	position: relative;
-	padding: 15px 40px;
 	color: #263238;
 	border: 3px solid #263238;
 	text-transform: uppercase;
-	font-family: 'Roboto';
+	text-align: center;
+	font-family: 'Tektur', sans-serif;
 	letter-spacing: 10px;
 	overflow: hidden;
 }
@@ -227,8 +239,6 @@ nav{
 .otros-proyectos:hover::before{
 	animation: otros-proyectos 2s linear both;
 }
-
-
 @keyframes otros-proyectos{
 	0%{
 		transform: rotate(0deg);
@@ -240,7 +250,7 @@ nav{
 }
 .material-icons{
 	position: absolute;
-	margin-top: 2px;
+	margin-top: 1px;
 	margin-left: 10px;
 }
 .contact{
@@ -315,13 +325,30 @@ footer{
 	margin-top: 150px;
 }
 
-@media(max-width: 845px){
+@media(max-width: 960px){
+	.fondo-pattern-1{
+		height: 750px;
+	}
+	.flex-1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.margin-a{
+		margin: 10px;
+	}
+	.margin-b{
+		margin: 10px;
+	}
 	.display-none{
 		display: block;
 	}
+	.card{
+		margin-bottom: 15px;
+	}
 	.proyectos img{
-		width:500px;
-		height: 300px;
+		width:350px;
+		height: 200px;
 	}
 	.contact{
 		height: 450px;
