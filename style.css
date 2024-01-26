@@ -403,6 +403,9 @@ footer{
 	.margin-b{
 		margin: 10px 0;
 	}
+	.responsive-flex img{
+		width: 70px;
+	}
 	.icono{
 		display: block;
 	}
