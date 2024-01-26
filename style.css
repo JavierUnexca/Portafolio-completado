@@ -100,6 +100,7 @@ nav{
 .fondo-pattern-1{
 	width: 100%;
 	height: 600px;
+	margin-top: 40px;
 	border-bottom: 3px dashed black;
 }
 .fondo-pattern-2{
@@ -394,6 +395,10 @@ footer{
 }
 
 @media(max-width:530px){
+	.margin-a{
+		width: 350px;
+		height: 350px;
+	}
 	.icono{
 		display: block;
 	}
